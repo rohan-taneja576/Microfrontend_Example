@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: action/checkout@v2
+      - uses: action/checkout@v4
       - run: npm run install
       - run: npm run build
 
