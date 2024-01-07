@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - run: npm run install
+      - run: npm install
       - run: npm run build
 
       - uses: chrislennon/action-aws-cli@v1.1
